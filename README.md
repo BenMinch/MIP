@@ -1,6 +1,7 @@
 # MIP: Meaningful Information from Protein Descriptions
 A tool to extract meaningful functional information from confusing protein descriptions gathered from PFAM or other databases. This tool has two parts to it: 1) A PFAM scaper to get protein descriptions from PFAM accession numbers. 2) An AI-based classification tool to read those descriptions at scale and summarize the function of the protein in 4 words or less. 
 
+![alt test](https://github.com/BenMinch/MIP/blob/main/MIP_logo.png)
 # The PFAM Scraper
 A web-scraper for the PFAM database to quickly get protein descriptions from accession numbers
 ### Dependencies
