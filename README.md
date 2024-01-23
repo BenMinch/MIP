@@ -37,6 +37,11 @@ The AI portion of MIP is a bit more tricky to setup and does require an OpenAI a
 ### Inputs
 1. A csv file with a column called Description. This can be the output of the first protein description scraper tool. This Description can also just be a paragraph or sentence description of a protein you get from any database.
 
+`python MIP_AI.py -i testout.csv -o AI_out.csv`
+
+### Outputs
+1. This AI is trained to give you a description of your protein in 4 words or less. It will store this in a column called function. This program can also take some time (about 5 seconds per protein).
+
 # Copyright
 
 MIP Copyright (C) 2023 Benjamin Minch
@@ -44,9 +49,3 @@ MIP Copyright (C) 2023 Benjamin Minch
 This program is free software: you can redistribute it and/or modify it under the terms of the MIT License.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT License for more details.
-
-`python MIP_AI.py -i testout.csv -o AI_out.csv`
-
-### Outputs
-1. This AI is trained to give you a description of your protein in 4 words or less. It will store this in a column called function. This program can also take some time (about 5 seconds per protein).
-
